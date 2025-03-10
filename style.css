@@ -475,6 +475,54 @@ article .icon {
     border-color: rgb(163, 163, 163);
 }
 
+/* Certificate Section CSS */
+#certificates {
+    position: relative;
+    height: 100vh;
+    margin-top: 4rem;
+}
+
+#certificates .about-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#certificates .about-containers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-around;
+}
+
+#certificates .details-containers {
+    flex: 1 1 30%;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(163, 163, 163) 0.1px solid;
+    text-align: center;
+}
+
+#certificates .project-img {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+}
+
+#certificates .project-title {
+    margin: 1rem;
+    color: black;
+}
+
+#certificates .project-title:hover {
+    color: #E6B2BA;
+}
+
+#certificates .project-btn {
+    border-color: rgb(163, 163, 163);
+}
+
 /* Contacts Section CSS */
 #contact {
     display: flex;
