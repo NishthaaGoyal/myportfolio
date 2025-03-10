@@ -87,6 +87,12 @@ a:hover {
     transform: scale(1.1);
 }
 
+/* Hover effect for the logo in the navbar */
+#desktop-nav .logo:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
 /* Hamburger Menu */
 #hamburger-nav {
     display: none;
@@ -448,31 +454,50 @@ article .icon {
 /* Projects Section CSS */
 #projects {
     position: relative;
-    height: 100vh;
+    height: auto;
+    margin-top: 4rem;
 }
 
-.color-container {
-    border-color: rgb(163, 163, 163);
-    background: rgb(250, 250, 250);
+#projects .about-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.project-img {
+#projects .about-containers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-around;
+}
+
+#projects .details-containers {
+    flex: 1 1 30%;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(163, 163, 163) 0.1px solid;
+    text-align: center;
+}
+
+#projects .project-img {
     border-radius: 2rem;
     width: 90%;
     height: 90%;
 }
 
-.project-title {
+#projects .project-title {
     margin: 1rem;
     color: black;
 }
 
-.project-title:hover {
+#projects .project-title:hover {
     color: #E6B2BA;
 }
 
-.project-btn {
+#projects .project-btn {
     border-color: rgb(163, 163, 163);
+    margin: 0.5rem;
 }
 
 /* Certificate Section CSS */
